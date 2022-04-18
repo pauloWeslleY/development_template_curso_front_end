@@ -1,3 +1,8 @@
+/*
+   === === === === === ==>
+   fixme |> Styles Pattern --> ITCSS
+   <== === === === === ===
+*/
 @import "./base/base_4.css";
 @import "./objects/object_5.css";
 @import "./components/components_6.css";
