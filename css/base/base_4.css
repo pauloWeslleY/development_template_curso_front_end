@@ -128,3 +128,22 @@ table {
    border-collapse: collapse;
    border-spacing: 0;
 }
+
+/*
+   === === === === === ==>
+   fixme |> Base Reset
+   <== === === === === ===
+*/
+
+#container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+      "header header"
+      "article picture"
+      "footer picture";
+}
+
+header {
+   grid-area: header;
+}
