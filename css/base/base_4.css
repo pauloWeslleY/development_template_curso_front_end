@@ -141,6 +141,8 @@ table {
       "header header"
       "article picture"
       "footer picture";
+   width: 80%;
+   margin: 25px auto;
 }
 header {
    grid-area: header;
