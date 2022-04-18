@@ -1,0 +1,16 @@
+/*
+   === === === === === ==>
+   fixme |> Trumps
+   <== === === === === ===
+*/
+/*
+   === === === === === ==>
+   ! |> Buttons
+   <== === === === === ===
+*/
+#btn__bag {
+   background-color: #488cf5;
+}
+#btn__bag:hover {
+   background-color: #8a378d;
+}

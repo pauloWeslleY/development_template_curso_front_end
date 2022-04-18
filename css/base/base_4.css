@@ -108,6 +108,7 @@ section {
 }
 body {
    line-height: 1;
+   font-family: Arial, Helvetica, sans-serif;
 }
 ol,
 ul {
@@ -128,13 +129,11 @@ table {
    border-collapse: collapse;
    border-spacing: 0;
 }
-
 /*
    === === === === === ==>
    fixme |> Base Reset
    <== === === === === ===
 */
-
 #container {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -143,7 +142,11 @@ table {
       "article picture"
       "footer picture";
 }
-
 header {
    grid-area: header;
+   height: 40px;
+   display: flex;
+}
+nav {
+   flex-grow: 1;
 }
