@@ -14,3 +14,17 @@
 #btn__bag:hover {
    background-color: #8a378d;
 }
+.menu__toggle {
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   right: 15px;
+   cursor: pointer;
+}
+.menu__toggle > img {
+   height: 40px;
+   width: 40px;
+}
+.menu__toggle > img:hover {
+   transform: scale(1.2);
+}
