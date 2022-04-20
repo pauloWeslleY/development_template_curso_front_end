@@ -52,4 +52,14 @@
       left: 0;
       transition: all 0.3s ease;
    }
+   .item__menu_responsive {
+      visibility: visible !important;
+   }
+   #footer {
+      text-align: center;
+      padding-top: 100px;
+   }
+   #footer > small {
+      color: #fff !important;
+   }
 }

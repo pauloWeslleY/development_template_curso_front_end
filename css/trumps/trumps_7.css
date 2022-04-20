@@ -29,3 +29,6 @@
 .menu__toggle > img:hover {
    transform: scale(1.2);
 }
+.item__menu_responsive {
+   visibility: hidden;
+}

@@ -77,8 +77,8 @@
    text-align: center;
    color: #488cf5;
    margin-top: 130px;
-   /* display: flex;
-   align-items: end; */
+   display: flex;
+   align-items: end;
 }
 #article > h2 {
    width: 512.4px;
@@ -87,7 +87,7 @@
    letter-spacing: 0.5px;
    text-align: center;
    color: #adadad;
-   /* margin-top: 35px; */
+   margin-top: 35px;
 }
 .send__message {
    width: 504px;
