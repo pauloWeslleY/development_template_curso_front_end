@@ -103,6 +103,7 @@
 .send__message input {
    padding: 18px 10px;
    border: none;
+   outline: none;
    width: 353px;
 }
 .send__message button {
