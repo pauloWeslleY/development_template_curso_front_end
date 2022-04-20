@@ -66,4 +66,7 @@
    #footer > small {
       color: #fff !important;
    }
+   #article > span {
+      display: flex;
+   }
 }
