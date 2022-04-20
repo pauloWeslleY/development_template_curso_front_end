@@ -24,8 +24,10 @@
       width: 100%;
       height: calc(100vh - 80px);
       background-color: #6066f2;
-      /* left: -100%; */
+      left: -100%;
       z-index: 10;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
    }
    #navigation > ul {
       display: flex;
@@ -42,5 +44,12 @@
    }
    #navigation > ul > li > a:hover {
       color: #f4891f !important;
+   }
+   .menu__toggle {
+      opacity: 1 !important;
+   }
+   #navigation.active {
+      left: 0;
+      transition: all 0.3s ease;
    }
 }
