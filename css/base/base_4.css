@@ -159,3 +159,6 @@ picture {
 article {
    grid-area: article;
 }
+footer {
+   grid-area: footer;
+}
