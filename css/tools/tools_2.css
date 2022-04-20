@@ -1,0 +1,16 @@
+@media only screen and (max-width: 550px) {
+   #brand {
+      margin-left: 15px;
+   }
+   #btn__bag,
+   #btn__login {
+      display: none;
+   }
+   #picture_phone > img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      opacity: 0.5;
+   }
+}
