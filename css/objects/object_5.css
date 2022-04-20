@@ -51,3 +51,37 @@
    vertical-align: middle;
    font-weight: bold;
 }
+
+/*
+   === === === === === ==>
+   ! |> Tag Article
+   <== === === === === ===
+*/
+#article > span {
+   width: 444px;
+   height: 343px;
+   opacity: 0.35;
+   font-size: 18rem;
+   font-weight: bold;
+   letter-spacing: 80px;
+   text-align: center;
+   color: #dbdbdb;
+   position: absolute;
+   z-index: -1;
+}
+#article > h1 {
+   width: 504px;
+   height: 183px;
+   font-size: 3.37rem;
+   font-weight: bold;
+   text-align: center;
+   color: #488cf5;
+}
+#article > h2 {
+   width: 512.4px;
+   height: 90.7px;
+   font-size: 1.12rem;
+   letter-spacing: 0.5px;
+   text-align: center;
+   color: #adadad;
+}

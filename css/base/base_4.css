@@ -156,3 +156,6 @@ picture {
    grid-area: picture;
    justify-self: end;
 }
+article {
+   grid-area: article;
+}
