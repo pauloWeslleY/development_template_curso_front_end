@@ -49,7 +49,9 @@
             <div class="send__message">
                <i><img src="./assets/envelope.png" alt="Icons Card" /></i>
                <input type="email" placeholder="Escreva seu Email" />
-               <button class="send_btn__message">Enviar</button>
+               <a href="#openModal">
+                  <button class="send_btn__message">Enviar</button>
+               </a>
             </div>
          </article>
          <picture id="picture_phone">
@@ -59,6 +61,24 @@
             <small>&copy; Desenvolvimento Front End.</small>
          </footer>
       </section>
+
+      <div id="openModal" class="modal__dialog">
+         <div class="modal__content">
+            <a href="#close" title="Fechar" class="close__modal"></a>
+            <div class="side__left">
+               <img
+                  src="./assets/phone.png"
+                  alt="Phone"
+                  class="phone__message"
+               />
+               <img src="./assets/envelope.png" alt="Icone de carta" />
+               <h1>Mensagem Enviada</h1>
+            </div>
+            <div class="side__right">
+               <p>Obrigado por enviar a mensagem, vamos responder em breve.</p>
+            </div>
+         </div>
+      </div>
 
       <script src="scripts/jquery-3.6.0.min.js"></script>
       <script src="scripts/script.js"></script>
