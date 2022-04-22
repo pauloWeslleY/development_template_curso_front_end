@@ -66,7 +66,42 @@
    #footer > small {
       color: #fff !important;
    }
-   #article > span {
-      display: flex;
+   #article > h1 {
+      margin-left: -33px;
+      font-size: 2.8rem !important;
+      margin-top: 95px !important;
+   }
+   #article > h2 {
+      width: 85% !important;
+      height: 75px !important;
+      font-size: 1.12rem;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: #adadad;
+      margin-top: 60px !important;
+   }
+   .send__message {
+      width: 415px !important;
+   }
+   .send__message > i > img {
+      padding-left: 15px;
+      position: relative;
+      top: 2px;
+   }
+   .send__message input {
+      padding: 18px 10px;
+      border: none;
+      outline: none;
+      width: 280px !important;
+   }
+   .send__message button {
+      width: 80px;
+      height: 45px;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      background-color: #488cf5;
+      border: none;
+      cursor: pointer;
+      color: #fff;
    }
 }
