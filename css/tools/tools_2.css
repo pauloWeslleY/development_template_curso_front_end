@@ -19,6 +19,7 @@
       position: absolute;
       left: 0;
       top: 0;
+      margin-left: 15px;
       z-index: -1;
       opacity: 0.5;
    }
@@ -89,14 +90,10 @@
       top: 2px;
    }
    .send__message input {
-      padding: 18px 10px;
-      border: none;
-      outline: none;
       width: 280px !important;
    }
    .send__message button {
-      width: 80px;
-      height: 45px;
+      width: 65px !important;
       border-radius: 30px;
       -webkit-border-radius: 30px;
       background-color: #488cf5;
