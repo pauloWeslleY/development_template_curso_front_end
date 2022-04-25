@@ -1,0 +1,18 @@
+/*
+   === === === === === ==>
+   ! |> Pallete Colors Root
+   <== === === === === ===
+*/
+:root {
+   --color-white: #fff;
+   --color-orange: #f4891f;
+   --color-blue: #488cf5;
+   --color-gray-darken: #585858;
+   --color-gray-1: #adadad;
+   --color-gray-2: #dbdbdb;
+   --color-gray-lighting: rgba(0, 0, 0, 0.16);
+   --color-orchids: #6066f2;
+   --color-purple: #8a378d;
+   --color-black-lighting: rgba(0, 0, 0, 0.8);
+   --color-black: #000;
+}

@@ -143,6 +143,7 @@ table {
       "footer picture";
    width: 80%;
    margin: 25px auto;
+   min-width: 550px;
 }
 header {
    grid-area: header;

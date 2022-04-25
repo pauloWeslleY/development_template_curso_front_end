@@ -3,6 +3,8 @@
    fixme |> Object05 Elements
    <== === === === === ===
 */
+/* ? Import Pallete Colors */
+@import "./../settings/settings_1.css";
 /*
    === === === === === ==>
    ! |> Tag Navigation
@@ -13,7 +15,7 @@
 }
 #navigation > ul > li > a {
    text-decoration: none;
-   color: #6066f2;
+   color: var(--color-orchids);
    line-height: 40px;
    font-weight: bold;
    font-size: 0.93rem;
@@ -22,34 +24,33 @@
    -webkit-transition: all 0.3s ease-in-out;
 }
 #navigation > ul > li > a:hover {
-   color: #8a378d;
-   border-bottom: 1px dotted #8a378d;
-   border-top: 1px dotted #8a378d;
+   color: var(--color-purple);
+   border-bottom: 1px dotted var(--color-purple);
+   border-top: 1px dotted var(--color-purple);
    padding: 10px 15px;
 }
-
 .button {
    width: 150px;
    height: 40px;
    border-radius: 23px;
-   box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
-   -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
-   background-color: #f4891f;
-   color: #fff;
+   box-shadow: 3px 3px 3px 0 var(--color-gray-lighting);
+   -webkit-box-shadow: 3px 3px 3px 0 var(--color-gray-lighting);
+   background-color: var(--color-orange);
+   color: var(--color-white);
    border: none;
    font-size: 0.75rem;
+   font-weight: bold;
    cursor: pointer;
    margin-left: 5px;
    transition: all 0.3s ease-in-out;
    -webkit-transition: all 0.3s ease-in-out;
 }
 .button:hover {
-   background-color: #8a378d;
+   background-color: var(--color-purple);
 }
 .button > img {
    height: 20px;
    vertical-align: middle;
-   font-weight: bold;
 }
 /*
    === === === === === ==>
@@ -64,7 +65,7 @@
    font-weight: bold;
    letter-spacing: 80px;
    text-align: center;
-   color: #dbdbdb;
+   color: var(--color-gray-2);
    position: absolute;
    z-index: -1;
    margin-top: 90px;
@@ -75,7 +76,7 @@
    font-size: 3.37rem;
    font-weight: bold;
    text-align: center;
-   color: #488cf5;
+   color: var(--color-blue);
    margin-top: 130px;
    display: flex;
    align-items: end;
@@ -86,16 +87,16 @@
    font-size: 1.12rem;
    letter-spacing: 0.5px;
    text-align: center;
-   color: #adadad;
+   color: var(--color-gray-1);
    margin-top: 35px;
 }
 .send__message {
    width: 504px;
    height: 51px;
    border-radius: 26px;
-   box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
-   -web-kit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
-   background-color: #fff;
+   box-shadow: 3px 3px 3px 0 var(--color-gray-lighting);
+   -web-kit-box-shadow: 3px 3px 3px 0 var(--color-gray-lighting);
+   background-color: var(--color-white);
 }
 .send__message > i > img {
    padding-left: 15px;
@@ -113,15 +114,16 @@
    height: 45px;
    border-radius: 30px;
    -webkit-border-radius: 30px;
-   background-color: #488cf5;
+   background-color: var(--color-blue);
    border: none;
    cursor: pointer;
-   color: #fff;
+   color: var(--color-white);
    transition: all 0.3s ease;
    -webkit-transition: all 0.3s ease;
+   text-transform: uppercase;
 }
 .send__message button:hover {
-   background-color: #f4891f;
+   background-color: var(--color-orange);
 }
 /*
    === === === === === ==>
@@ -134,7 +136,7 @@
    right: 0;
    left: 0;
    bottom: 0;
-   background: rgba(0, 0, 0, 0.8);
+   background: var(--color-black-lighting);
    z-index: 99999;
    opacity: 0;
    transition: opacity 400ms ease-in;
@@ -147,7 +149,7 @@
    pointer-events: auto;
 }
 .modal__content {
-   background-color: #fff;
+   background-color: var(--color-white);
    width: 500px;
    height: 300px;
    position: relative;
@@ -167,14 +169,14 @@
 }
 .side__left {
    width: 45%;
-   background-color: #488cf5;
+   background-color: var(--color-blue);
    padding-top: 130px;
    opacity: 0.5;
 }
 .side__left > h1 {
    font-size: 1.25rem;
    font-weight: bold;
-   color: #fff;
+   color: var(--color-white);
 }
 .side__right {
    width: 55%;
@@ -184,8 +186,8 @@
    font-weight: bold;
 }
 .close__modal {
-   background-color: #6066f2;
-   color: #fff;
+   background-color: var(--color-orchids);
+   color: var(--color-white);
    line-height: 25px;
    position: absolute;
    right: -12px;
@@ -197,13 +199,13 @@
    border-radius: 12px;
    -webkit-border-radius: 12px;
    -moz-border-radius: 12px;
-   box-shadow: 1px 1px 3px #000;
-   -webkit-box-shadow: 1px 1px 3px #000;
-   -moz-box-shadow: 1px 1px 3px #000;
+   box-shadow: 1px 1px 3px var(--color-black);
+   -webkit-box-shadow: 1px 1px 3px var(--color-black);
+   -moz-box-shadow: 1px 1px 3px var(--color-black);
 }
 .close__modal:after {
    content: "\d7";
 }
 .close__modal:hover {
-   background-color: #f4891f;
+   background-color: var(--color-orange);
 }

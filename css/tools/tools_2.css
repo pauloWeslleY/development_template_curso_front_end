@@ -1,3 +1,5 @@
+/* ? Import Pallete Colors */
+@import "./../settings/settings_1.css";
 /*
    === === === === === ==>
    ! |> Media Queries
@@ -6,10 +8,10 @@
 @media only screen and (max-width: 550px) {
    body {
       overflow-x: hidden;
+      box-sizing: border-box;
    }
    #brand {
-      margin-left: -30px;
-      /* margin-left: 15px; */
+      margin-left: 15px;
    }
    #btn__bag,
    #btn__login {
@@ -23,12 +25,17 @@
       z-index: -1;
       opacity: 0.5;
    }
+   /*
+      === === === === === ==>
+      ! |> Navigation
+      <== === === === === ===
+   */
    #navigation {
       position: absolute;
       top: 80px;
       width: 100%;
       height: calc(100vh - 80px);
-      background-color: #6066f2;
+      background-color: var(--color-orchids);
       left: -100%;
       z-index: 10;
       transition: all 0.3s ease;
@@ -43,12 +50,12 @@
       padding: 30px 0;
    }
    #navigation > ul > li > a {
-      color: #fff !important;
+      color: var(--color-white) !important;
       border: none !important;
       font-size: 1.56rem !important;
    }
    #navigation > ul > li > a:hover {
-      color: #f4891f !important;
+      color: var(--color-orange) !important;
    }
    .menu__toggle {
       opacity: 1 !important;
@@ -60,45 +67,77 @@
    .item__menu_responsive {
       visibility: visible !important;
    }
-   #footer {
-      text-align: center;
-      padding-top: 100px;
+   /*
+      === === === === === ==>
+      ! |> Article
+      <== === === === === ===
+   */
+   #article {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
    }
-   #footer > small {
-      color: #fff !important;
+   #article > .article__background_mobile {
+      display: flex;
+      align-items: center;
+      margin: 45px;
+      color: var(--color-gray-1);
    }
-   #article > h1 {
-      margin-left: -33px;
-      font-size: 2.8rem !important;
-      margin-top: 95px !important;
+   #article > .article__title_mobile {
+      margin: 125px 15px;
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
-   #article > h2 {
-      width: 85% !important;
-      height: 75px !important;
-      font-size: 1.12rem;
-      letter-spacing: 0.5px;
-      text-align: center;
-      color: #adadad;
-      margin-top: 60px !important;
+   #article > .article__subtitle_mobile {
+      margin: 25px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: -115px;
+      color: var(--color-gray-darken);
    }
-   .send__message {
-      width: 415px !important;
+   #article div.send__message {
+      width: 415px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px auto;
    }
    .send__message > i > img {
       padding-left: 15px;
       position: relative;
       top: 2px;
    }
-   .send__message input {
-      width: 280px !important;
+   #article div.send__message > input {
+      width: 280px;
    }
-   .send__message button {
-      width: 65px !important;
-      border-radius: 30px;
-      -webkit-border-radius: 30px;
-      background-color: #488cf5;
-      border: none;
-      cursor: pointer;
-      color: #fff;
+   #article div.send__message button {
+      width: 65px;
+   }
+   /*
+      === === === === === ==>
+      ! |> Background Shapes
+      <== === === === === ===
+   */
+   #shapes > img.shape2__shapes {
+      display: flex;
+      justify-content: end;
+      position: absolute;
+      top: 455px;
+   }
+   /*
+      === === === === === ==>
+      ! |> Footer
+      <== === === === === ===
+   */
+   #footer {
+      text-align: center;
+      padding-top: 100px;
+   }
+   #footer > small.text__footer {
+      color: var(--color-gray-darken);
    }
 }
